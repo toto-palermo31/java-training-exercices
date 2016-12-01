@@ -5,14 +5,14 @@ package io.robusta.people;
  */
 public class Admin extends User {
 
-    private String directory;
+	private String directory;
 
-    public Admin(String name) {
-        this.name = "name";
-        this.directory = "/home/"+this.name;
-    }
+	public Admin(String name) {
+		super(name, name + "@aelion.fr");
+		this.directory = "/home/" + this.name;
+	}
 
-    public String getDirectory() {
-        return directory;
-    }
+	public String getDirectory() {
+		return directory;
+	}
 }

@@ -10,7 +10,9 @@ public interface Flaggable {
     // Threshold of flags that generate an email
     int AWARE_ADMIN = 3;
 
-    public boolean isFlagged();
-    abstract String[] getFlags();
+    boolean isFlagged();
+    String[] getFlags();
+    
+    void addFlag(String reason);
 
 }
