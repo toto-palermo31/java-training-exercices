@@ -25,7 +25,7 @@ public class ReadFileApplication {
 		} catch (FileNotFoundException e) {
 			System.out.println("Oh Oh...il semble que le fichier " + args[0] + " n'existe pas!!");
 		} catch (IOException e) {
-			System.out.println("Oh Oh...il semble que le fichier " + args[0] + " n'existe pas!!");
+			System.out.println("Oh Oh...il semble que le fichier " + args[1] + " n'existe pas!!");
 		}
 	}
 
